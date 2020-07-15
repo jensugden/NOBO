@@ -1,0 +1,118 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url(../images/mockaroon-YqUeLG7fMr4-unsplash.jpg);
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  }
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.sm-logo {
+  width: 30%;
+}
+
+a.hover_gray:hover {
+  color: gray !important;
+  border-bottom: 1px solid #f59137;
+  /* text-decoration: underline;
+  text-decoration-color: #f59137;
+  text-decoration-style: solid; */
+}
+
+.active {
+  color: gray !important;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.o-box {
+  background-color: #f59137 !important;
+  opacity: 70%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  opacity: 50%;
+  height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+  div.mobile {
+    font-size: 30%;
+  }
+}
+
+/* .intro {
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+} */
