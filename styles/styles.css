@@ -4,8 +4,8 @@
 
 body {
   background-image: url(../images/mockaroon-YqUeLG7fMr4-unsplash_rotate.jpg);
-  background-repeat: no-repeat;
-  background-size: auto !important;
+  /* background-repeat: no-repeat; */
+  /* background-size: auto !important; */
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
