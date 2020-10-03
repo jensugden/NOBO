@@ -75,7 +75,7 @@ a:hover {
 }
 
 .o-box {
-  background-color: #009999 !important;
+  background-color: #F59237 !important;
   opacity: 70%;
 }
 
@@ -163,7 +163,7 @@ a:hover {
   width: 300px;
   height: inherit;
   text-align: left;
-  background-color: #009999;
+  background-color: #F59237;
   transform: rotateY(180deg);
 }
 /* #f59137 */
