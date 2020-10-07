@@ -27,7 +27,7 @@ footer {
   height: 200px;
   align-items: center;
   text-align: center;
-  color: gray !important;
+  color: gray;
 }
 
 .glegoo {
@@ -65,7 +65,7 @@ a:hover {
 }
 
 .active {
-  color: gray !important;
+  color: #6b6c6d !important;
 }
 
 .intro {
@@ -75,17 +75,17 @@ a:hover {
 }
 
 .o-box {
-  background-color: #F59237 !important;
+  background-color: #F59237;
   opacity: 70%;
 }
 
-.box {
+/* .box {
   display: flex;
   justify-content: center;
   background-color: white;
   opacity: 50%;
   height: 600px;
-}
+} */
 
 @media screen and (max-width: 600px) {
   div.mobile {
