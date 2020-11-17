@@ -30,6 +30,10 @@ footer {
   color: gray;
 }
 
+.headline {
+  color: #62a67b;
+}
+
 .glegoo {
   font-family: 'Glegoo', serif;
 }
@@ -54,18 +58,18 @@ footer {
 }
 
 a {
-  color: white;
+  color: #62a67b;
 }
 
 a:hover {
-  color: #6b6c6d !important;
-  text-decoration: underline;
+  color: #62a67b !important;
+  /* text-decoration: underline;
   text-decoration-color: #6b6c6d;
-  text-decoration-style: solid;
+  text-decoration-style: solid; */
 }
 
 .active {
-  color: #6b6c6d !important;
+  color: #62a67b !important;
 }
 
 .intro {
@@ -75,7 +79,7 @@ a:hover {
 }
 
 .o-box {
-  background-color: #F59237;
+  background-color: #62a67b;
   opacity: 70%;
 }
 
@@ -163,7 +167,7 @@ a:hover {
   width: 300px;
   height: inherit;
   text-align: left;
-  background-color: #F59237;
+  background-color: #62a67b;
   transform: rotateY(180deg);
 }
 /* #f59137 */
