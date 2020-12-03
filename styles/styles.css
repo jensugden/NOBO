@@ -31,7 +31,7 @@ footer {
 }
 
 .headline {
-  color: #62a67b;
+  color: #f59137;
 }
 
 .glegoo {
@@ -57,11 +57,6 @@ footer {
   width: 30%;
 }
 
-/* .container {
-  position: relative;
-  text-align: center;
-} */
-
 .bottom-right {
   position: absolute;
   bottom: 12px;
@@ -69,18 +64,18 @@ footer {
 }
 
 a {
-  color: #62a67b;
+  color: #f59137;
 }
 
 a:hover {
-  color: #62a67b !important;
+  color: #f59137 !important;
   /* text-decoration: underline;
   text-decoration-color: #6b6c6d;
   text-decoration-style: solid; */
 }
 
 .active {
-  color: #62a67b !important;
+  color: #f59137 !important;
 }
 
 .intro {
@@ -90,51 +85,13 @@ a:hover {
 }
 
 .o-box {
-  background-color: #62a67b;
+  background-color: #f59137;
   opacity: 70%;
 }
-
-/* .box {
-  display: flex;
-  justify-content: center;
-  background-color: white;
-  opacity: 50%;
-  height: 600px;
-} */
 
 @media screen and (max-width: 600px) {
   div.mobile {
     font-size: 30%;
-  }
-}
-
-.element {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  /* background-color: lime; */
-  animation-name: stretch;
-  animation-duration: 1.5s;
-  animation-delay: .5s;
-  animation-timing-function: linear;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-}
-
-@keyframes stretch {
-  0% {
-    transform: scale(1);
-    /* background-color: green; */
-    /* border-radius: 100%; */
-  }
-
-  /* 50% {
-    background-color: orange;
-  } */
-
-  100% {
-    transform: scale(1.25);
-    /* background-color: red;  */
   }
 }
 
@@ -178,7 +135,6 @@ a:hover {
   width: 300px;
   height: inherit;
   text-align: left;
-  background-color: #62a67b;
+  background-color: #f59137;
   transform: rotateY(180deg);
 }
-/* #f59137 */
